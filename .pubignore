@@ -1,0 +1,15 @@
+# Ignore the source submodule to avoid duplicates
+rs/
+
+# Ignore any potential Rust build artifacts
+rust/**/target/
+rust/.cargo/
+
+# Ignore local tool metadata
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Ignore OS files
+.DS_Store
