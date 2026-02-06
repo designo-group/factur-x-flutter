@@ -46,10 +46,3 @@ try {
 }
 
 ```
-
-## Repository Structure
-
-* `rs/`: The Rust source code (submodule).
-* `rust/`: Vendored Rust code for `pub.dev` distribution.
-* `lib/`: Dart wrapper and generated FFI bindings.
-* `ios/` & `android/`: Native bridge and precompiled binaries.
