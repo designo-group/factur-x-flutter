@@ -31,12 +31,3 @@ Future<FacturXResultFlavor> getFlavor({required List<int> xmlBytes}) =>
 
 Future<Uint8List> unpackResultVec({required FacturXResultVecU8 result}) =>
     RustLib.instance.api.crateApiUnpackResultVec(result: result);
-
-// Rust type: RustOpaqueMoi<flutter_rust_bridge::for_generated::RustAutoOpaqueInner<FacturXResult < Flavor >>>
-abstract class FacturXResultFlavor implements RustOpaqueInterface {}
-
-// Rust type: RustOpaqueMoi<flutter_rust_bridge::for_generated::RustAutoOpaqueInner<FacturXResult < (String , Vec < u8 >) >>>
-abstract class FacturXResultStringVecU8 implements RustOpaqueInterface {}
-
-// Rust type: RustOpaqueMoi<flutter_rust_bridge::for_generated::RustAutoOpaqueInner<FacturXResult < Vec < u8 > >>>
-abstract class FacturXResultVecU8 implements RustOpaqueInterface {}

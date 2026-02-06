@@ -1,5 +1,6 @@
 rust_root: "rust/core"
 rust_input: "crate::api"
+rust_output: "rust/core/src/frb_generated_flutter.rs" 
 dart_output: "lib/src/rust"
 dart_root: "."
 c_output: "ios/Classes/frb_generated.h"
